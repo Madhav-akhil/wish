@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Kanishka!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffebcd;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+            text-align: center;
+            color: #fff;
+        }
+
+        h1 {
+            font-size: 4em;
+            color: #ff1493;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        p {
+            font-size: 1.5em;
+            margin-top: 20px;
+            color: #ff4500;
+        }
+
+        .btn {
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #ff6347;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #ff1493;
+        }
+
+        .heart {
+            color: #ff69b4;
+            font-size: 2em;
+            margin-top: 15px;
+            animation: heartbeat 1.5s infinite;
+        }
+
+        @keyframes heartbeat {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Happy Birthday Kanishka!</h1>
+    <p>Wishing you all the love, joy, and happiness today and always!</p>
+    <button class="btn" onclick="celebrate()">Celebrate</button>
+    <div class="heart">&#10084;&#65039;</div>
+
+    <script>
+        function celebrate() {
+            alert("Happy Birthday Kanishka! 🎉");
+            window.location.href = "https://www.example.com";  // You can replace this with a link of your choice
+        }
+    </script>
+
+</body>
+</html>
